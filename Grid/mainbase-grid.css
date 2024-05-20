@@ -1,0 +1,12 @@
+.basic-grid-rows {
+    display: grid;
+    gap: 4rem;
+
+    grid-template-rows: repeat(auto-fill, minmax(240px, 1fr));
+}
+.basic-grid-columns {
+    display: grid;
+    gap: 4rem;
+
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+ }

@@ -1,0 +1,30 @@
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
+
+body {
+    background: rgb(19, 19, 19);
+    color: #fff;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(35,35,35,0);
+    font-size: 1rem;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+
+    transition: all 500ms;
+    overflow: hidden;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+ }
+  
+
+
