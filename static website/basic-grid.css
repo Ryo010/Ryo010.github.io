@@ -1,5 +1,10 @@
 .basic-grid {
     display: grid;
+    gap: 4rem;
+    grid-template-rows: repeat(auto-fill, minmax(240px, 1fr));
+ }
+.basic-grid-buttons {
+    display: grid;
     gap: 1rem;
     grid-template-rows: repeat(auto-fill, minmax(240px, 1fr));
  }

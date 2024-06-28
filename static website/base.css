@@ -26,5 +26,21 @@ body {
     background-repeat: no-repeat;
  }
   
+ .button-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background: rgba(35,35,35,0);
+    font-size: 1rem;
+    color: gray;
+    height: 100%;
+    width: 100%;
 
+    transition: all 500ms;
+    overflow: hidden;
 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+ }
