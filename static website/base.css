@@ -43,4 +43,73 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
- }
+}
+ body {
+    background-image: url("/starpeggio.mp4");
+    background-position: center center;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+* {
+    transition: all 0.5s linear;
+}
+
+h1 {
+    color: gray;
+    font-family: Lucida Handwriting;
+    font-size: 300%;
+    text-align: center;
+}
+
+img {
+    opacity: 0.5;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img:hover {
+    opacity: 1.0;
+}
+
+#umg {
+    width: 100%;
+    height: auto;
+    padding-right: 90px;
+    max-width: 20em;
+}
+
+
+.stellar {
+    color: gray;
+    font-size: 17px;
+    text-align: center;
+}
+
+a:link, a:visited {
+    background-color: white;
+    color: black;
+    border: 2px solid ;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: gray;
+    color: white;
+}
+
+#social {
+    background: rgba(0, 151, 19, 0);
+    border-color: rgba(0, 151, 19, 0);
+    opacity: 0.5;
+    transition: ease-in-out 1s;
+}
+
+#social:hover {
+      transition:ease-in-out 1s;
+      opacity: 1;
+}
